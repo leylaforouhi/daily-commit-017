@@ -1,2 +1,6 @@
-# daily-commit-017
-My seventeenth daily GitHub activity repository
+def count_characters(text):
+    return {char: text.count(char) for char in set(text)}
+
+if __name__ == "__main__":
+    sample = "commit"
+    print(f"Character counts: {count_characters(sample)}")
