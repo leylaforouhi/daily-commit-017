@@ -1,5 +1,5 @@
 def count_characters(text):
-    return {char: text.count(char) for char in set(tex)}
+    return {char: text.count(char) for char in set(texT)}
 
 if __name__ == "__main__":
     sample = "commit"
